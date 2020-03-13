@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import HelloMessage from './Components/HelloMessage'
-import Board from './Components/Board'
+import PlayGround from './Components/PlayGround'
 
 function App() {
   return (
@@ -11,8 +10,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
       </header>
       <div className="Main">
-        <HelloMessage name={'aa'} />
-        <Board />
+        <PlayGround />
       </div>
     </div>
   );
