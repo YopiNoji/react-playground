@@ -1,16 +1,15 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import PlayGround from './Components/PlayGround'
+import React from 'react';
+import { ReactComponent as Logo } from './assets/logo.svg';
+import { Sample } from './components/molecules/Sample'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <Logo className="App-logo" height="70px"/>
       </header>
       <div className="Main">
-        <PlayGround />
+        <Sample />
       </div>
     </div>
   );
