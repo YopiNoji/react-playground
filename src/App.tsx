@@ -1,6 +1,6 @@
 import React from 'react';
 import { ReactComponent as Logo } from './assets/logo.svg';
-import { Sample } from './components/molecules/Sample'
+import { TableWithData } from './components/molecules/Table';
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
         <Logo className="App-logo" height="70px"/>
       </header>
       <div className="Main">
-        <Sample />
+        <TableWithData />
       </div>
     </div>
   );
