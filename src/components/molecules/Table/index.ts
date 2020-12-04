@@ -1,0 +1,1 @@
+export { default as TableWithData } from './TableWithData';
